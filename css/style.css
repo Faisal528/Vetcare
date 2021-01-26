@@ -1,0 +1,500 @@
+*{
+	margin: 0:
+	padding 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+h1,h2,h3,h4,h5,h6,p,a,input,span{
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+
+/**** header section css ****/
+
+header{
+	position: absolute;
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+}
+.nav-link{
+	font-size: 28px;
+	color: white !important;
+}
+.nav-item{
+	margin: 0 32px;
+}
+.form-control {
+	padding: .8rem .75rem !important;
+	color: white !important;
+	background-color: #fcc302 !important;
+	border: 1px solid #fcc302 !important; 
+	border-radius: 0px;
+
+}
+.input-group-text{
+	padding: .375rem 1.25rem !important;
+	color: white !important;
+	background-color: #00bec9 !important;
+	border: none !important;
+
+}
+
+/**** banner section css ****/
+.banner{
+	width: 100%;
+	background-color: #fcc302;
+	padding: 120px 0px;
+}
+
+.banner h1{
+	font-size: 64px;
+	font-weight: 600;
+	color: white;
+	margin-top: 64px;
+}
+.banner p{
+	font-size: 30px;
+	color: white;
+	margin: 42px 0px;
+
+}
+.banner .btn-primary{
+	color: #fff;
+	background-color: #00bec9 !important;
+	border-color: #00bec9 !important;
+}
+
+/**** about-section-one css ****/
+
+
+.about-section-one{
+	width: 100%;
+    padding: 100px 0 50px 0;
+    background-color: #fff;
+}
+.about-section-one h1{
+	font-size: 50px;
+    color: #313243;
+    font-weight: 600;
+
+}
+.about-section-one .btn-warning{
+	color: #fff;
+    background-color: #fcc302 !important;
+    border-color: #fcc302 !important;
+    padding: 15px 30px;
+
+}
+.about-section-one .about-video{
+	position: relative;
+	z-index: 1;
+}
+.about-section-one .overlay{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fcc30294;
+}
+.about-section-one .box{
+	position: absolute;
+    height: 206px;
+    width: 252px;
+    background-color: #fcc302;
+    bottom: -40px;
+    left: -40px;
+    z-index: -1;
+}
+
+.about-section-one .play-icon i {
+	position: absolute;
+    height: 84px;
+    width: 84px;
+    text-align: center;
+    line-height: 84px;
+    font-size: 20px;
+    background-color: #fff;
+    color: #fcc302;
+    top: 40%;
+    left: 40%;
+    border-radius: 50%;
+}
+
+
+/**** service-section css ****/
+
+.service-section-one{
+	width: 100%;
+    margin: 50px 0;
+    padding: 100px 0;
+    text-align: center;
+    background-color: #fcc302;
+
+}
+.service-section-one h1{
+	font-size: 75px;
+    font-weight: 700;
+    color: #fff;
+}
+.service-section-one .heading p{
+	font-size: 34px;
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+}
+.service-section-one .body{
+	margin-top: 50px;
+}
+
+.service-section-one .body h4 {
+    font-size: 36px;
+    color: #fff;
+    margin: 40px 0 20px 0;
+}
+.service-section-one .body p {
+    font-size: 24px;
+    color: #fff;
+}
+
+
+/**** about-section-two css ****/
+.about-section-two{
+	width: 100%;
+    padding: 100px 0 50px 0;
+    background-color: #fff;
+}
+.text-end{
+	text-align: right !important;
+}
+.about-section-two .about-video {
+    position: relative;
+    z-index: 1;
+}
+
+.about-section-two .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fcc30294;
+}
+.about-section-two .box {
+    position: absolute;
+    height: 206px;
+    width: 252px;
+    background-color: #fcc302;
+    bottom: -40px;
+    right: -40px;
+    z-index: -1;
+}
+
+.about-section-two h1 {
+    font-size: 50px;
+    color: #313243;
+    font-weight: 600;
+}
+.about-section-two p {
+    font-size: 30px;
+    color: #313243;
+    font-weight: 400;
+    margin: 40px 0;
+}
+.about-section-two .btn-warning {
+    color: #fff;
+    background-color: #fcc302 !important;
+    border-color: #fcc302 !important;
+    padding: 15px 30px;
+}
+.about-section-two .play-icon i {
+	position: absolute;
+    height: 84px;
+    width: 84px;
+    text-align: center;
+    line-height: 84px;
+    font-size: 20px;
+    background-color: #fff;
+    color: #fcc302;
+    top: 40%;
+    left: 40%;
+    border-radius: 50%;
+
+}
+
+/**** service-section-two css ****/
+
+.service-section-two {
+    width: 100%;
+    margin: 50px 0;
+    padding: 100px 0;
+    text-align: center;
+    background-color: #fcc302;
+}
+.service-section-two .heading h1 {
+    font-size: 75px;
+    font-weight: 700;
+    color: #fff;
+}
+.service-section-two .body {
+    margin-top: 50px;
+}
+.service-section-two .body h4 {
+    font-size: 42px;
+    color: #fff;
+    margin: 25px 0;
+
+}
+
+
+.service-section-two .body .btn-primary {
+    color: #fff;
+    background-color: #00bec9;
+    border-color: #00bec9;
+    padding: 12px 48px;
+    border-radius: 50px;
+}
+
+/**** vetcare section css ****/
+
+.vetcare-section{
+    width: 100%;
+    margin: 50px 0;
+    padding: 100px 0;
+    text-align: center;
+}
+.vetcare-section .heading h1{
+    font-size: 75px;
+    font-weight: 700;
+    color: #313243;
+}
+.vetcare-section .heading p {
+    font-size: 34px;
+    color: #313243;
+    width: 70%;
+    margin: 0 auto;
+}
+.vetcare-section .body{
+    margin-top: 50px;
+}
+.vetcare-section .body h6 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #313243;
+    margin: 40px 0 10px 0;
+}
+.vetcare-section .body p {
+    font-size: 25px;
+    color: #313243;
+}
+.vetcare-section .body .social-media{
+    padding: 0;
+}
+.justify-content-center{
+    justify-content: center !important;
+}
+.d-flex{
+    display: flex !important;
+}
+.vetcare-section .body .social-media ul li a i {
+    margin: 0 10px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #daac00;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+/**** success section css ****/
+.success-section {
+    width: 100%;
+    background-image: url(../img/img13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    position: relative;
+    height: 50vh;
+}
+.success-section .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fcc302d4;
+}
+.success-section .row{
+    text-align: center;
+    padding: 100px 0;
+}
+.success-section .col-md-4 i{
+    font-size: 72px;
+    color: white;
+}
+.success-section .col-md-4 h2{
+    font-size: 42px;
+    color: white;
+}
+
+
+.success-section .col-md-4 h3{
+    font-size: 38px;
+    color: white;
+}
+
+
+/**** blog-section css ****/
+
+
+.blog-section {
+    width: 100%;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+.text-center {
+    text-align: center!important;
+}
+.blog-section .heading h1 {
+    font-size: 75px;
+    font-weight: 700;
+    color: #313243;
+}
+.blog-section .heading p {
+    font-size: 34px;
+    color: #313243;
+    width: 70%;
+    margin: 0 auto;
+}
+.blog-section .body {
+    margin: 50px 0;
+}
+.blog-section .blog-content {
+    border: 2px solid #d6d6d6;
+    border-top: none;
+}
+.blog-section .body h4 {
+    font-size: 25px;
+    color: #313243;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.blog-section .body span {
+    font-size: 16px;
+    color: #00bec9;
+}
+.blog-section .body p {
+    font-size: 16px;
+    color: #313243;
+    margin: 20px 0;
+}
+.blog-section .body h5 {
+    font-size: 20px;
+    color: #00bec9;
+    font-weight: 600;
+}
+
+/**** footer css ****/
+
+footer {
+    width: 100%;
+    background-color: #343434;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+footer h4 {
+    font-size: 38px;
+    color: #fff !important;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+footer ul li {
+    margin: 10px 0;
+}
+footer ul li a {
+    color: #fff !important;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+footer p {
+    font-size: 25px;
+    color: #fff;
+}
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+footer .input-group-text {
+    background-color: #00bec9;
+    border: #00bec9;
+    padding: 0 40px;
+    border-radius: 0;
+}
+footer .input-group-text a i {
+    font-size: 30px;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+footer .social-media ul {
+    padding: 0;
+}
+footer .social-media ul li a i {
+    margin: 0 10px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #fff !important;
+    border-radius: 50%;
+    color: #343434 !important;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
