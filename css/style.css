@@ -19,6 +19,7 @@ header{
 	position: absolute;
 	width: 100%;
 	background: rgba(0,0,0,0.2);
+    padding: 2px 0px;
 }
 .nav-link{
 	font-size: 28px;
@@ -27,7 +28,8 @@ header{
 .nav-item{
 	margin: 0 32px;
 }
-.form-control {
+
+.form-control{
 	padding: .8rem .75rem !important;
 	color: white !important;
 	background-color: #fcc302 !important;
@@ -43,11 +45,12 @@ header{
 
 }
 
+
 /**** banner section css ****/
 .banner{
 	width: 100%;
 	background-color: #fcc302;
-	padding: 120px 0px;
+	padding: 180px 0px;
 }
 
 .banner h1{
@@ -267,6 +270,7 @@ header{
     padding: 100px 0;
     text-align: center;
 }
+
 .vetcare-section .heading h1{
     font-size: 75px;
     font-weight: 700;
@@ -286,6 +290,7 @@ header{
     font-weight: 700;
     color: #313243;
     margin: 40px 0 10px 0;
+
 }
 .vetcare-section .body p {
     font-size: 25px;
@@ -293,23 +298,23 @@ header{
 }
 .vetcare-section .body .social-media{
     padding: 0;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
 }
-.justify-content-center{
-    justify-content: center !important;
-}
-.d-flex{
-    display: flex !important;
-}
+
 .vetcare-section .body .social-media ul li a i {
     margin: 0 10px;
     height: 35px;
     width: 35px;
     text-align: center;
     line-height: 35px;
-    background-color: #daac00;
+    background-color: #fcc302;
     border-radius: 50%;
     color: #fff;
     font-size: 20px;
+
 }
 
 
@@ -460,9 +465,18 @@ footer .input-group-text {
 footer .input-group-text a i {
     font-size: 30px;
 }
-.fab {
-    font-family: "Font Awesome 5 Brands";
+footer .btn {
+    position: relative;
+    z-index: 2;
+    width: 100px;
+    height: 60px;
+    border-radius: unset;
+    border: none;
+    background: #00bec9;
+    color: white;
+    font-size: 25px;
 }
+
 footer .social-media ul {
     padding: 0;
 }
@@ -477,6 +491,7 @@ footer .social-media ul li a i {
     color: #343434 !important;
     font-size: 20px;
 }
+
 
 
 
